@@ -2,8 +2,16 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
+import ElementUI from 'element-ui'
+import './theme/index.css'
+import './assets/css/font-awesome.min.css'
+import './assets/css/style.css'
+import Config from './config/'
 
-Vue.config.productionTip = false
+//Vue.config.productionTip = false
+Vue.prototype.$Config = Config
+
+Vue.use(ElementUI);
 
 new Vue({
   router,
