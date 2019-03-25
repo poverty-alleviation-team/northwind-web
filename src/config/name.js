@@ -1,5 +1,5 @@
 export default {
-    siteName:'流程管理系统',
+    siteName:'NorthWind',
     minSiteMame:'EUI',
     tokenKey: 'Authorization',//存在sessionStorage里面的tokenKey
     // postStatus:{
