@@ -10,6 +10,7 @@ import Config from './config/'
 
 //Vue.config.productionTip = false
 Vue.prototype.$Config = Config
+Vue.prototype.$Flame = '火星已阅'
 
 Vue.use(ElementUI);
 
