@@ -11,10 +11,12 @@ import './assets/css/font-awesome.min.css'
 import './assets/css/style.css'
 
 import Config from './config/'
+import Api from './api/'
 
 //Vue.config.productionTip = false
-Vue.prototype.$Config = Config
-Vue.prototype.$axios = axios
+Vue.prototype.$Config = Config;
+Vue.prototype.$axios = axios;
+Vue.prototype.$Api = Api;
 
 Vue.use(ElementUI);
 Vue.use(VueAxios,axios);
